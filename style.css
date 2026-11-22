@@ -1,0 +1,497 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+/* buttons */
+.btn {
+  display: inline-block;
+  width: 157px;
+  padding: 14px 0;
+  background-color: #543ee0;
+  color: white;
+  border: 1px solid #543ee0;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #3f2bc0;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #111111;
+}
+
+.btn-outline:hover {
+  background-color: #f1efff;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  padding: 0 75px 0 72px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.logo {
+  color: #543ee0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 174px;
+}
+
+.nav-links li {
+  margin-left: 24px;
+}
+
+.nav-links a {
+  color: #111111;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #543ee0;
+}
+
+.nav-buttons .btn {
+  margin-left: 20px;
+}
+
+/* hero */
+.hero {
+  height: 765px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("images/hero.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 228px;
+}
+
+.hero-text {
+  width: 984px;
+  color: white;
+  margin-bottom: 74px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  width: 740px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 36px;
+}
+
+/* about */
+.about {
+  display: flex;
+  align-items: flex-start;
+  padding: 96px 72px;
+}
+
+.about-text {
+  width: 686px;
+  margin-right: 84px;
+}
+
+.about-text h2 {
+  margin-bottom: 34px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about-img {
+  width: 500px;
+  height: 404px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* why join */
+.why {
+  width: 1040px;
+  margin: 0 auto;
+  padding-bottom: 107px;
+}
+
+.why h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.why-text {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 54px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 306px;
+  height: 324px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  padding: 15px 18px;
+  margin-right: 48px;
+}
+
+.card img {
+  width: 92px;
+  height: 88px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #626262;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* testimonial */
+.testimonial {
+  display: flex;
+  align-items: center;
+  height: 492px;
+  background-color: #fff6e5;
+  padding-left: 84px;
+}
+
+.testimonial-img {
+  width: 300px;
+  height: 292px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 56px;
+}
+
+.testimonial-text {
+  width: 924px;
+}
+
+.testimonial-text p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.testimonial .name {
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+
+.testimonial .name span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* connect */
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 96px 0;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  margin-right: 120px;
+}
+
+.people img {
+  width: 154px;
+  height: 158px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.people-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 44px;
+}
+
+.people-left img {
+  margin-bottom: 96px;
+}
+
+.people-left img:last-child {
+  margin-bottom: 0;
+}
+
+.connect-text {
+  width: 655px;
+}
+
+.connect-text h2 {
+  margin-bottom: 24px;
+}
+
+.connect-text p {
+  width: 594px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 32px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  align-items: flex-start;
+  height: 402px;
+  background-color: #fff6e5;
+  padding: 60px 80px;
+}
+
+.footer .logo {
+  margin-top: 12px;
+  margin-right: 218px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  width: 331px;
+}
+
+.footer-column:last-child {
+  width: auto;
+}
+
+.footer-column h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+
+.footer-column a {
+  color: #111111;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+
+.footer-column a:hover {
+  color: #543ee0;
+}
+
+/* tablets and phones */
+@media (max-width: 1100px) {
+  .navbar {
+    padding: 0 24px;
+  }
+
+  .nav-links {
+    margin-right: 24px;
+  }
+
+  .hero {
+    padding: 0 24px;
+  }
+
+  .hero-text,
+  .hero p {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 64px 24px;
+  }
+
+  .about-text {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .why {
+    width: 100%;
+    padding: 0 24px 64px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 24px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    height: auto;
+    padding: 48px 24px;
+  }
+
+  .testimonial-img {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .testimonial-text {
+    width: 100%;
+  }
+
+  .connect {
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 24px;
+  }
+
+  .people {
+    margin-right: 0;
+    margin-bottom: 48px;
+  }
+
+  .connect-text,
+  .connect-text p {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 48px 24px;
+  }
+
+  .footer .logo {
+    margin-bottom: 32px;
+  }
+
+  .footer-column {
+    width: 220px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 16px;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  .nav-right {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin: 12px 0;
+  }
+
+  .nav-links li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-buttons .btn {
+    width: 130px;
+    margin: 0 6px;
+  }
+
+  .hero {
+    height: 560px;
+  }
+
+  h2,
+  .hero h1 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .testimonial-img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .people img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .people-left img {
+    margin-bottom: 48px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-column {
+    margin-bottom: 24px;
+  }
+}
